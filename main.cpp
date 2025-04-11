@@ -21,9 +21,5 @@ for(int i=0; i<100; i++){ //petla dla czesci ulamkowej
 if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;}
     else u[i]=0;
 }
-cout<<"binarnie to:";
-for(i=0;i<10;i++)cout<<t[i];
-cout<<".";
-for(i=0;i<100;i++)cout<<u[i];
-    return 0;
+
 }
